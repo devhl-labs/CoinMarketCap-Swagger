@@ -3381,8 +3381,8 @@ paths:
 securityDefinitions:
   ApiKeyAuth:
     type: apiKey
-    name: X-CMC_PRO_API_KEY
-    in: header
+    name: CMC_PRO_API_KEY
+    in: query
 definitions:
   coin:
     type: object
